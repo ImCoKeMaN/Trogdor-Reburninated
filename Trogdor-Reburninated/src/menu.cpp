@@ -576,8 +576,9 @@ void Menu::renderMenu() {
 #define option_main_comment_freq_descriptions_line_1 { "Strong Bad does not talk.", "Strong Bad rarely talks.", "Strong Bad talks less than usual.", "Strong Bad talks as often", "Strong Bad talks a bit more often.", "Strong Bad talks much more often.", "Strong Bad won't shut up!" }
 #define option_main_comment_freq_descriptions_line_2 { "", "", "", "as he did in the original game.", "", "", "(He talks about twice as much as usual.)"}
 #define option_main_comment_freq_descriptions_line_3 { "", "", "", "", "", "", "" }
-#define option_main_sfx_volume_descriptions_line_1 { "Set the volume of sound effects." }
-#define option_main_commentary_volume_descriptions_line_1 { "Set the volume of commentary." }
+#define option_main_sfx_volume_descriptions_line_1 { "Set the volume of sound effects" }
+#define option_main_sfx_volume_descriptions_line_2 { "and original Trogdor sounds." }
+#define option_main_commentary_volume_descriptions_line_1 { "Set the volume of Strong Bad's commentary." }
 #define option_main_commentary_volume_descriptions_line_2 { "Has no effect if commentary is disabled." }
 #define press_confirm_to_apply "(Press " + INPUT_CONFIRM + " to apply)"
 #define option_main_scaling_choices { "Pixel-Perfect", "Pixel-Perfect Game", "Full", "Full Game" }
@@ -785,7 +786,7 @@ void InitializeMenus() {
 		option_main_music_volume_descriptions_line_1, option_main_music_volume_descriptions_line_2, option_empty,
 		"", 11, true, DEFAULT_MUSIC_VOLUME_INDEX, true, false);
 	MENU_SFX_VOLUME->prepareMenuOption("SFX Volume", option_main_volume_choices,
-		option_main_sfx_volume_descriptions_line_1, option_empty, option_empty,
+		option_main_sfx_volume_descriptions_line_1, option_main_sfx_volume_descriptions_line_2, option_empty,
 		"", 11, true, DEFAULT_SFX_VOLUME_INDEX, true, false);
 	MENU_COMMENTARY_VOLUME->prepareMenuOption("Commentary Vol.", option_main_volume_choices,
 		option_main_commentary_volume_descriptions_line_1, option_main_commentary_volume_descriptions_line_2, option_empty,
@@ -922,10 +923,10 @@ void InitializeMenus() {
 		"", 14, true, 0, true, false);
 	MENU_MUSIC_TEST->prepareMenuOption("Music", option_number_choices,
 		option_main_sound_descriptions_line_1, option_main_sound_descriptions_line_2, option_empty,
-		"", 12, true, 0, true, false);
+		"", 13, true, 0, true, false);
 	MENU_SFX_TEST->prepareMenuOption("SFX", option_number_choices,
 		option_main_sound_descriptions_line_1, option_main_sound_descriptions_line_2, option_empty,
-		"", 14, true, 0, true, false);
+		"", 13, true, 0, true, false);
 	MENU_VOICE_TEST->prepareMenuOption("Voice", option_number_choices,
 		option_main_sound_descriptions_line_1, option_main_sound_descriptions_line_2, option_empty,
 		"", 23, true, 0, true, false);

@@ -151,7 +151,7 @@ void cutscene_game_over() {
 		switch (g_frameState.frame) {
 			case 321:
 				stopMusic();
-				loadAndPlaySound(SFX_GAMEOVER);
+				playMusic(MUSIC_GAMEOVER, false, DEFAULT_VOLUME_GAME);
 				cutscene_game_over_trogdor.isActive = false;
 				//cutscene_game_over_banner.isActive = false;
 				cutscene_game_over_text.isActive = false;

@@ -421,7 +421,6 @@ void InitializeSFX() {
 	sfx_kick.path = getPreferredSfxPath("sfx/kick");
 	sfx_burninate.path = getPreferredSfxPath("sfx/burninate");
 	sfx_cutscene.path = getPreferredSfxPath("sfx/cutscene");
-	sfx_gameover.path = getPreferredSfxPath("sfx/gameover");
 	sfx_speedincreased.path = getPreferredSfxPath("sfx/speedincreased");
 	sfx_ending_1.path = getPreferredSfxPath("sfx/ending_1");
 	sfxArr[0] = &sfx_burn_hut;
@@ -442,9 +441,8 @@ void InitializeSFX() {
 	sfxArr[9] = &sfx_burninate;
 	makeSoundStatic(sfxArr[8]);
 	sfxArr[10] = &sfx_cutscene;
-	sfxArr[11] = &sfx_gameover;
-	sfxArr[12] = &sfx_speedincreased;
-	sfxArr[13] = &sfx_ending_1;
+	sfxArr[11] = &sfx_speedincreased;
+	sfxArr[12] = &sfx_ending_1;
 	sfx_sb1.path = getPreferredSfxPath("voice/trog_sb1");
 	sfx_sb2.path = getPreferredSfxPath("voice/trog_sb2");
 	sfx_sb3.path = getPreferredSfxPath("voice/trog_sb3");

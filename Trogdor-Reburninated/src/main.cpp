@@ -814,7 +814,10 @@ int main(int argv, char** args) {
 									playMusic(MUSIC_STINKOMAN_FINAL_BOSS, true, DEFAULT_VOLUME_MUSIC);
 									break;
 								case 11:
-									playMusic(MUSIC_ENDING_2, false, DEFAULT_VOLUME_MUSIC);
+									playMusic(MUSIC_ENDING_2, false, DEFAULT_VOLUME_GAME);
+									break;
+								case 12:
+									playMusic(MUSIC_GAMEOVER, false, DEFAULT_VOLUME_GAME);
 									break;
 								default:
 									break;
@@ -1027,7 +1030,7 @@ int main(int argv, char** args) {
 				if (keyPressed(INPUT_START)) {
 					g_sceneState = 3;
 					lastMusicPlayed = -1;
-					stopMusic();
+					//stopMusic();
 					menuMusicHasStarted = false;
 					MM = MenuManager();
 				}
