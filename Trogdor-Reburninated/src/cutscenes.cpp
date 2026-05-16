@@ -192,7 +192,7 @@ void cutscene_level_4() {
 		switch (g_frameState.frame) {
 			case 420:
 				cutsceneIsPlaying = true;
-				loadAndPlaySound(SFX_CUTSCENE);
+				playMusic(MUSIC_CUTSCENE, false, DEFAULT_VOLUME_GAME);
 				cutscene_peasant_1.isActive = false;
 				cutscene_trogdor_1.isActive = false;
 				cutscene_trogdor_fire.isActive = false;
@@ -251,7 +251,7 @@ void cutscene_level_8() {
 		switch (g_frameState.frame) {
 			case 493:
 				cutsceneIsPlaying = true;
-				loadAndPlaySound(SFX_CUTSCENE);
+				playMusic(MUSIC_CUTSCENE, false, DEFAULT_VOLUME_GAME);
 				cutscene_trogdor_1.isActive = false;
 				cutscene_trogdor_fire.isActive = false;
 				cutscene_peasant_1.isActive = false;
@@ -337,7 +337,7 @@ void cutscene_level_12() {
 		switch (g_frameState.frame) {
 			case 567:
 				cutsceneIsPlaying = true;
-				loadAndPlaySound(SFX_CUTSCENE);
+				playMusic(MUSIC_CUTSCENE, false, DEFAULT_VOLUME_GAME);
 				cutscene_trogdor_1.isActive = false;
 				cutscene_trogdor_2.isActive = false;
 				cutscene_trogdor_3.isActive = false;
@@ -391,7 +391,7 @@ void cutscene_level_16() {
 		switch (g_frameState.frame) {
 			case 641:
 				cutsceneIsPlaying = true;
-				loadAndPlaySound(SFX_CUTSCENE);
+				playMusic(MUSIC_CUTSCENE, false, DEFAULT_VOLUME_GAME);
 				cutscene_trogdor_1.isActive = false;
 				cutscene_knight_1.isActive = false;
 				cutscene_knight_2.isActive = false;
@@ -447,7 +447,7 @@ void cutscene_level_20() {
 		switch (g_frameState.frame) {
 			case 710:
 				cutsceneIsPlaying = true;
-				loadAndPlaySound(SFX_CUTSCENE);
+				playMusic(MUSIC_CUTSCENE, false, DEFAULT_VOLUME_GAME);
 				cutscene_trogdor_flexing.isActive = false;
 				cutscene_trogdor_flexing.prepareAsCSO(92, 72, 0, IS_BIG_HEAD_MODE, 0, 0, 0, 0);
 				break;
@@ -496,7 +496,7 @@ void cutscene_level_24() {
 		switch (g_frameState.frame) {
 			case 780:
 				cutsceneIsPlaying = true;
-				loadAndPlaySound(SFX_CUTSCENE);
+				playMusic(MUSIC_CUTSCENE, false, DEFAULT_VOLUME_GAME);
 				cutscene_trogdor_1.isActive = false;
 				cutscene_trogdor_fire.isActive = false;
 				cutscene_peasant_1.isActive = false;
@@ -586,7 +586,7 @@ void cutscene_level_30() {
 		switch (g_frameState.frame) {
 			case 853:
 				cutsceneIsPlaying = true;
-				loadAndPlaySound(SFX_CUTSCENE);
+				playMusic(MUSIC_CUTSCENE, false, DEFAULT_VOLUME_GAME);
 				cutscene_peasant_1.isActive = false;
 				cutscene_peasant_2.isActive = false;
 				cutscene_trogdor_fire.isActive = false;
@@ -636,7 +636,7 @@ void cutscene_level_34() {
 		switch (g_frameState.frame) {
 			case 927:
 				cutsceneIsPlaying = true;
-				loadAndPlaySound(SFX_CUTSCENE);
+				playMusic(MUSIC_CUTSCENE, false, DEFAULT_VOLUME_GAME);
 				cutscene_peasant_1.isActive = false;
 				cutscene_peasant_2.isActive = false;
 				cutscene_peasant_3.isActive = false;
@@ -734,7 +734,7 @@ void cutscene_level_38() {
 		switch (g_frameState.frame) {
 			case 1000:
 				cutsceneIsPlaying = true;
-				loadAndPlaySound(SFX_CUTSCENE);
+				playMusic(MUSIC_CUTSCENE, false, DEFAULT_VOLUME_GAME);
 				cutscene_peasant_1.isActive = false;
 				cutscene_peasant_2.isActive = false;
 				cutscene_heart.isActive = false;
@@ -787,7 +787,7 @@ void cutscene_level_42() {
 		switch (g_frameState.frame) {
 			case 1076:
 				cutsceneIsPlaying = true;
-				loadAndPlaySound(SFX_CUTSCENE);
+				playMusic(MUSIC_CUTSCENE, false, DEFAULT_VOLUME_GAME);
 				cutscene_cottage_1.isActive = false;
 				cutscene_cottage_2.isActive = false;
 				cutscene_cottage_1.prepareAsCSO(81, 79, 0, 3, 0, 0, 0, 0);
@@ -845,7 +845,7 @@ void cutscene_level_46() {
 		switch (g_frameState.frame) {
 			case 1153:
 				cutsceneIsPlaying = true;
-				loadAndPlaySound(SFX_CUTSCENE);
+				playMusic(MUSIC_CUTSCENE, false, DEFAULT_VOLUME_GAME);
 				cutscene_knight_funnyjoke.isActive = false;
 				cutscene_knight_1.isActive = false;
 				cutscene_archer_1.isActive = false;
@@ -899,7 +899,7 @@ void cutscene_level_50() {
 		switch (g_frameState.frame) {
 			case 1226:
 				cutsceneIsPlaying = true;
-				loadAndPlaySound(SFX_CUTSCENE);
+				playMusic(MUSIC_CUTSCENE, false, DEFAULT_VOLUME_GAME);
 				cutscene_trogdor_1.isActive = false;
 				cutscene_trogdor_fire.isActive = false;
 				cutscene_kerrek.isActive = false;

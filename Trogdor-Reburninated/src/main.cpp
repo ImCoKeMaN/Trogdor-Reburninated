@@ -814,9 +814,12 @@ int main(int argv, char** args) {
 									playMusic(MUSIC_STINKOMAN_FINAL_BOSS, true, DEFAULT_VOLUME_MUSIC);
 									break;
 								case 11:
-									playMusic(MUSIC_ENDING_2, false, DEFAULT_VOLUME_GAME);
+									playMusic(MUSIC_CUTSCENE, false, DEFAULT_VOLUME_GAME);
 									break;
 								case 12:
+									playMusic(MUSIC_ENDING_2, false, DEFAULT_VOLUME_GAME);
+									break;
+								case 13:
 									playMusic(MUSIC_GAMEOVER, false, DEFAULT_VOLUME_GAME);
 									break;
 								default:

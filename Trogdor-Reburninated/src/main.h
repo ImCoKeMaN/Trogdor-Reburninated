@@ -152,7 +152,6 @@ SoundEffect sfx_squish;
 SoundEffect sfx_death;
 SoundEffect sfx_kick;
 SoundEffect sfx_burninate;
-SoundEffect sfx_cutscene;
 SoundEffect sfx_speedincreased;
 SoundEffect sfx_ending_1;
 SoundEffect sfx_sbdooj_short;

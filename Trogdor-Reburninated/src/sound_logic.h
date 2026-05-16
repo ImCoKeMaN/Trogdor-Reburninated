@@ -3,7 +3,7 @@
 #ifndef SOUND_LOGIC_H
 #define SOUND_LOGIC_H
 
-constexpr auto NUM_SOUND_EFFECTS_SFX = 13; // hardcoded; change this as more sound effects are added
+constexpr auto NUM_SOUND_EFFECTS_SFX = 12; // hardcoded; change this as more sound effects are added
 //constexpr auto NUM_SOUND_EFFECTS_GAMEMUSIC = 0;
 constexpr auto NUM_SOUND_EFFECTS_STRONG_BAD = 23;
 constexpr auto NUM_SOUND_CHANNELS = 8;
@@ -16,6 +16,7 @@ constexpr auto MUSIC_TITLE_SCREEN = "title_screen";
 constexpr auto MUSIC_MENU = "menu";
 constexpr auto MUSIC_ENDING_2 = "cast";
 constexpr auto MUSIC_GAMEOVER = "gameover";
+constexpr auto MUSIC_CUTSCENE = "cutscene";
 constexpr auto MUSIC_STINKOMAN_DAY = "stinkoman_level_day";
 constexpr auto MUSIC_STINKOMAN_EVENING = "stinkoman_level_evening";
 constexpr auto MUSIC_STINKOMAN_NIGHT = "stinkoman_level_night";
@@ -76,9 +77,8 @@ extern void setVolume_music(Uint8);
 #define SFX_DEATH         sfxArr[7]
 #define SFX_KICK          sfxArr[8]
 #define SFX_BURNINATE     sfxArr[9]
-#define SFX_CUTSCENE      sfxArr[10]
-#define SFX_SPEEDINCREASED sfxArr[11]
-#define SFX_ENDING_1      sfxArr[12]
+#define SFX_SPEEDINCREASED sfxArr[10]
+#define SFX_ENDING_1      sfxArr[11]
 #define SFX_SB1           sfxArr_strongBad[0]
 #define SFX_SB2           sfxArr_strongBad[1]
 #define SFX_SB3           sfxArr_strongBad[2]
@@ -100,8 +100,8 @@ extern void setVolume_music(Uint8);
 #define SFX_SBWIN         sfxArr_strongBad[18]
 #define SFX_SBWIN2        sfxArr_strongBad[19]
 #define SFX_SBWORST       sfxArr_strongBad[20]
-#define SFX_SBDOOJ_SHORT  sfxArr_strongBad[21]
-#define SFX_ITSOVER       sfxArr_strongBad[22]
+#define SFX_ITSOVER       sfxArr_strongBad[21]
+#define SFX_SBDOOJ_SHORT  sfxArr_strongBad[22]
 extern SoundEffect sfx_burn_hut;
 extern SoundEffect sfx_goldget;
 extern SoundEffect sfx_peasantscream;
@@ -133,7 +133,6 @@ extern SoundEffect sfx_squish;
 extern SoundEffect sfx_death;
 extern SoundEffect sfx_kick;
 extern SoundEffect sfx_burninate;
-extern SoundEffect sfx_cutscene;
 extern SoundEffect sfx_speedincreased;
 extern SoundEffect sfx_ending_1;
 extern SoundEffect sfx_sbdooj_short;
