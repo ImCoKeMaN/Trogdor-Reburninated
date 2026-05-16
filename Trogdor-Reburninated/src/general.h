@@ -67,7 +67,7 @@ constexpr auto PI = 3.14159265;
 #define AUDIO_TROG_FORMAT MIX_DEFAULT_FORMAT
 #endif
 
-#if defined(PSP)
+#if defined(PSP) || defined(GAMECUBE)
 constexpr auto AUDIO_SAMPLE_RATE = 22050;
 #else
 constexpr auto AUDIO_SAMPLE_RATE = 44100;

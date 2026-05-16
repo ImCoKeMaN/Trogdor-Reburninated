@@ -2,8 +2,8 @@
 
 :: most_systems_ogg: Recommended for most systems.
 :: most_systems_wav: If you are playing on an extremely weak device, then WAV may have better performance (music) and initial load time (sound effects) than OGG.
-:: 3ds_psp_ogg: Lower-quality OGG files (smaller and faster-loading). Recommended for use only on 3DS and PSP.
-:: 3ds_psp_wav: Lower-quality WAV files. These are much larger than OGG, but have better initial load times for sound effects (makes little to no difference for music). Recommended for use only on 3DS and PSP.
+:: 3ds_psp_gc_ogg: Lower-quality OGG files (smaller and faster-loading). Recommended for use only on 3DS, PSP, and Gamecube.
+:: 3ds_psp_gc_wav: Lower-quality WAV files. These are much larger than OGG, but have better initial load times for sound effects (makes little to no difference for music). Recommended for use only on 3DS, PSP, and Gamecube.
 
 @echo off
 setlocal EnableExtensions DisableDelayedExpansion

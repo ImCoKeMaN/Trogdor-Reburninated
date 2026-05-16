@@ -466,15 +466,12 @@ void InitializeSFX() {
 	sfx_sbdooj_short.path = getPreferredSfxPath("voice/sbdooj_short");
 	sfx_itsover.path = getPreferredSfxPath("voice/soundboard_itsover");
 	sfxArr_strongBad[0] = &sfx_sb1;
-	makeSoundStatic(sfxArr_strongBad[0]);
 	sfxArr_strongBad[1] = &sfx_sb2;
 	makeSoundStatic(sfxArr_strongBad[1]);
 	sfxArr_strongBad[2] = &sfx_sb3;
 	makeSoundStatic(sfxArr_strongBad[2]);
 	sfxArr_strongBad[3] = &sfx_sb4;
-	makeSoundStatic(sfxArr_strongBad[3]);
 	sfxArr_strongBad[4] = &sfx_sb5;
-	makeSoundStatic(sfxArr_strongBad[4]);
 	sfxArr_strongBad[5] = &sfx_sb6;
 	makeSoundStatic(sfxArr_strongBad[5]);
 	sfxArr_strongBad[6] = &sfx_sb7;
@@ -489,7 +486,6 @@ void InitializeSFX() {
 	sfxArr_strongBad[11] = &sfx_sbgameover;
 	sfxArr_strongBad[12] = &sfx_sbkerrek;
 	sfxArr_strongBad[13] = &sfx_sblevelbeat;
-	makeSoundStatic(sfxArr_strongBad[13]);
 	sfxArr_strongBad[14] = &sfx_sbscore;
 	sfxArr_strongBad[15] = &sfx_sbsecret;
 	sfxArr_strongBad[16] = &sfx_sbsquish1;
