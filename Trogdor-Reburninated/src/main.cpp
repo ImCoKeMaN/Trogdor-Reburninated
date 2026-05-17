@@ -1315,7 +1315,7 @@ int main(int argv, char** args) {
 #endif
 
 		frameCounter_global++;
-#if defined(SDL1) || (defined(LINUX) && defined(PC))
+#if defined(SDL1) || (defined(LINUX) && defined(PC)) || defined(ANDROID)
 		if (true) {
 #else
 		if (frameRate < displayRefreshRate) {
