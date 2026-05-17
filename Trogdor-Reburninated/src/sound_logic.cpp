@@ -26,7 +26,11 @@ static bool fileExists(const string &filePath) {
 }
 
 static string getChosenMusicPath(const char *musicRelPath) {
+#if defined(ANDROID)
+	const string musicDir = (currentMusicSetting() == MUSIC_SETTING_CUSTOM) ? "/storage/emulated/0/Trogdor-RB/music_custom/" : "music/";
+#else
 	const string musicDir = (currentMusicSetting() == MUSIC_SETTING_CUSTOM) ? "music/custom/" : "music/";
+#endif
 	const string oggPath = rootDir + musicDir + musicRelPath + ".ogg";
 	if (fileExists(oggPath)) {
 		return oggPath;
