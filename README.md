@@ -1,11 +1,10 @@
 # Trogdor: Reburninated
+<img src="https://github.com/Mode8fx/Trogdor-Reburninated/blob/main/Trogdor-Reburninated/release-resources/logo_icon_wiiu.png"/>
 This is an enhanced recreation of the Homestar Runner Flash game, _Trogdor_. It is currently available for PC, Android, Switch, Wii U, Wii, Gamecube, 3DS, Vita, PSP, [PortMaster](https://portmaster.games/detail.html?name=trogdorrb), and FunKey.
 
 Homestar Runner is no stranger to [fan ports](https://www.mrphlip.com/ds/pop_tire/) of its [Flash games](https://www.mrphlip.com/ds/secret/), and its impact on Flash media, as well as Internet media as a whole, cannot be overstated. Though the original game is still playable on modern devices through its [HTML5 port](https://old.homestarrunner.com/trogdor-canvas/index.html), this project aims to expand on the original release with new features and multiplatform libraries that allow for porting to a wide variety of systems.
 
-All screenshots are from PC v1.0 (unless otherwise specified) and can be found in the [screenshots](https://github.com/Mode8fx/Trogdor-Reburninated/tree/main/screenshots) folder.
-
-<img src="https://github.com/Mode8fx/Trogdor-Reburninated/blob/main/screenshots/gameplay_v1.0.png?raw=true" width="480" height="360"/>
+<img src="https://github.com/Mode8fx/Trogdor-Reburninated/blob/main/screenshots/gameplay_v2.21.png?raw=true" width="480" height="360"/>
 
 ## Features
 - A faithful recreation of the original Flash game, including intermissions
@@ -20,6 +19,7 @@ All screenshots are from PC v1.0 (unless otherwise specified) and can be found i
 - Big head mode!
 
 <img src="https://github.com/Mode8fx/Trogdor-Reburninated/blob/main/screenshots/options_v1.0.png?raw=true" width="480" height="360"/>
+(screenshot from v1.0)
 
 ## FAQ
 ### Is this a port? Remake? Remaster?
