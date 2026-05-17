@@ -32,5 +32,20 @@ That being said, almost all art and sound assets are ported directly from the or
 ### Will this be ported to \_\_\_\_\_?
 This game was made to be compatible with both SDL 1.2 and SDL2 specifically so it could be ported to many systems. You have my permission to port this wherever you want.
 
+### How do I add custom music?
+Custom music should be placed in the following directory, with each song having the same name as its original counterpart ("menu", "stinkoman_level_day", etc):
+
+Android: `/storage/emulated/0/Trogdor-RB/music_custom` (`/storage/emulated/0` should be the main folder on your device)
+
+FunKey: `/mnt/FunKey/.trogdorrb/music_custom`
+
+Everything else: `(game directory)/music/custom`
+
+WAV and OGG files are both supported, and you can convert your music using [this script](https://github.com/Mode8fx/Trogdor-Reburninated/blob/main/Scripts/convert_audio_for_systems.bat).
+
+It is recommended to use WAV on very low-end devices; it doesn't matter on other devices, but OGG is smaller, so you may want to use that.
+
+If you decide to also replace sound effects, you can use the same script above. Both WAV and OGG will have the same performance in-game, but initial load time will be longer for OGG (maybe much longer depending on the system).
+
 ### Legal Stuff
 This is an unofficial fan project made without any involvement from anyone who contributed to the original game. Trogdor and Homestar Runner are owned by the Brothers Chaps, Mike and Matt Chapman. The original Flash game was programmed by Jonathan Howe.
