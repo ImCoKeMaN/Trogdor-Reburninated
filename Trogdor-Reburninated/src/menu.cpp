@@ -882,7 +882,7 @@ void InitializeMenus() {
 	menu_gba_demo.pages[0]->setTextLine(9, "https://jeremyelkayam.itch.io/trogba");
 	menu_gba_demo.pages[0]->setTextLine(10, "");
 #if defined(WII)
-	menu_gba_demo.pages[0]->setTextLine(11, "(Or press 2 to play the demo right now)");
+	menu_gba_demo.pages[0]->setTextLine(11, "(Or press 2/A to play the demo right now)");
 #else
 	menu_gba_demo.pages[0]->setTextLine(11, "(Or press A to play the demo right now)");
 #endif
